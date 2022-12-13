@@ -1,7 +1,7 @@
 
 const express = require("express")
 const bcrypt = require("bcrypt");
-const User = require("../Schema/User.Schema")
+const User = require("../Schema/User.schema")
 const jwt = require("jsonwebtoken");
 const emiRoute= express.Router();
 
