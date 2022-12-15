@@ -1,8 +1,8 @@
 const express=require("express")
 const mongoose=require("mongoose")
 const Authentication = require("./Middleware/authentication")
-const userRoute=require("./route/user.router")
-const emiRoute=require("./route/emi.router")
+const userRoute=require("../route/user.router")
+const emiRoute=require("../route/emi.router")
 const cors=require("cors")
 
 const app=express()
